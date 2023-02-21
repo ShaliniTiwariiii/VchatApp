@@ -11,7 +11,9 @@ function Chats() {
             </span>
             <p>hello</p>
         </div>
+        
      </div>
+   <hr/>
     </div>
   )
 }

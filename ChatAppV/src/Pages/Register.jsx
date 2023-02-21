@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 function Register() {
 const[err,setErr]=useState(false)
 const navigate = useNavigate()
+  
   const handleSubmit= async (e)=>{
     e.preventDefault()
    const displayName= e.target[0].value;
@@ -62,9 +63,9 @@ setErr(true)
     <span className='logo'> Chat</span>
     <span className='title'>Register</span>
    <form onSubmit={handleSubmit}>
-    <input type='text' placeholder='display name'/>
-    <input type='email' placeholder='email'/>
-    <input type='password' placeholder='password'/>
+    <input type='text' placeholder='Name'/>
+    <input type='email' placeholder='Email'/>
+    <input type='password' placeholder='Password'/>
      <input  type='file' style={{display:'none'}} id='file'/>
      <label htmlFor='file'>
         <FcGallery/>

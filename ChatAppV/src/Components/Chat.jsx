@@ -9,7 +9,7 @@ function Chat() {
   return (
     <div className='chat'>
       <div className="chatInfo">
-        <span>shalini tiwati k</span>
+        <span>Shalini Tiwari</span>
         <div className="chatIcons">
       <AiFillCamera/>
       <AiOutlineUserAdd/>

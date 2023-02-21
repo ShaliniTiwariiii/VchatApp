@@ -19,6 +19,7 @@ function Search() {
           <p>hello</p>
         </div>
       </div>
+      <hr/>
     </div>
   )
 }

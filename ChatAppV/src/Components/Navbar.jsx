@@ -7,7 +7,7 @@ function Navbar() {
        chat
       </span>
       <div className='user'>
-      <img src='https://randomuser.me/api/portraits/women/90.jpg' alt=''/>
+      {/* <img src='https://randomuser.me/api/portraits/women/90.jpg' alt=''/> */}
       <span>Shalini</span>
       <button>logout</button>
       </div>

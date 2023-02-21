@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "firebase": "^9.17.1",
-    "react-firebase": "^2.2.8",
-    "react-icons": "^4.7.1",
-    "sass": "^1.58.3"
-  }
-}
